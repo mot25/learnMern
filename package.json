@@ -1,0 +1,22 @@
+{
+  "name": "learnmern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \" npm run server  \"\" npm run client  \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mot25/learnMern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mot25/learnMern/issues"
+  },
+  "homepage": "https://github.com/mot25/learnMern#readme"
+}
