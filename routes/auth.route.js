@@ -15,7 +15,7 @@ router.post('/registration', async (req, res) => {
 
         await user.save()
 
-        res.status(201).json({ message: 'User create and saved'})
+        res.status(201).json({ message: 'User create and saved' })
     } catch (error) {
         console.error(error)
     }
