@@ -2,9 +2,9 @@
   "name": "learnmern",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js",
+    "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \" npm run server  \"\" npm run client  \""
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/mot25/learnMern/issues"
   },
-  "homepage": "https://github.com/mot25/learnMern#readme"
+  "homepage": "https://github.com/mot25/learnMern#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-sass": "^7.0.1",
+    "react-router-dom": "^6.2.2",
+    "sass": "^1.49.9"
+  }
 }
